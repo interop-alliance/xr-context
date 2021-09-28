@@ -18,6 +18,7 @@ module.exports = {
     },
     UserPreferencesCredential: {
       '@id': 'https://w3id.org/xr#UserPreferencesCredential',
-    }
+    },
+    XrAgentCredential: 'https://w3id.org/xr#XrAgentCredential'
   }
 };
