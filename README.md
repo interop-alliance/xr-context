@@ -1,9 +1,9 @@
-# Context Template Repository _(context-template)_
+# XR Context Repository _(xr-context)_
 
-[![Build status](https://img.shields.io/github/workflow/status/interop-alliance/context-template/Node.js%20CI)](https://github.com/interop-alliance/context-template/actions?query=workflow%3A%22Node.js+CI%22)
-[![NPM Version](https://img.shields.io/npm/v/context-template.svg)](https://npm.im/context-template)
+[![Build status](https://img.shields.io/github/workflow/status/interop-alliance/xr-context/Node.js%20CI)](https://github.com/interop-alliance/xr-context/actions?query=workflow%3A%22Node.js+CI%22)
+[![NPM Version](https://img.shields.io/npm/v/xr-context.svg)](https://npm.im/xr-context)
 
-> A GitHub template repository for JSON-LD contexts.
+> XR (Virtual Reality / Augmented Reality) JSON-LD context.
 
 ## Table of Contents
 
@@ -27,26 +27,26 @@ Requires Node.js 12+
 To install via NPM:
 
 ```
-npm install context-template
+npm install xr-context
 ```
 
 ## Usage
 
 ```js
-import exampleCtx from 'context-template';
+import xrCtx from 'xr-context';
 // or
-const exampleCtx = require('context-template');
+const xrCtx = require('xr-context');
 const {contexts, constants, appContextMap} = exampleCtx;
 
-exampleCtx.CONTEXT_URL_V1
-// 'https://w3id.org/example/v1'
+xrCtx.CONTEXT_URL_V1
+// 'https://w3id.org/xr/v1'
 
 // Codec term map value for CBOR-LD
-exampleCtx.constants.CBORLD_CODEC_VALUE
-// 0x0..
+xrCtx.constants.CBORLD_CODEC_VALUE
+// 0x8001
 
 // get context data for a specific context
-exampleCtx.CONTEXT_V1
+xrCtx.CONTEXT_V1
 // full context object
 ```
 
